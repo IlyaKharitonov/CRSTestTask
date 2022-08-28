@@ -9,6 +9,8 @@ import (
 )
 
 func main() {
+	//runtime.GOMAXPROCS(4)
+
 	api.RegisterHandlers()
 	log.Printf("RegisterHandlers start")
 

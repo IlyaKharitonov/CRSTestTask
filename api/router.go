@@ -5,7 +5,7 @@ import (
 )
 
 func RegisterHandlers(){
-	http.HandleFunc("/gasSummary", gasSummary)
+	http.HandleFunc("/getGasSummary", getGasSummary)
 }
 
 
