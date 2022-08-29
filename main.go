@@ -18,9 +18,6 @@ func main() {
 	fmt.Printf("Server Start in addr %s\n", addr)
 	err := http.ListenAndServe(addr, nil)
 	if err != nil {
-		fmt.Printf("Server error: %s", err)
+		log.Printf("Server error: %s", err)
 	}
-
-	fmt.Println("Server stop")
-
 }
